@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+    border-color: rgb(47, 51, 54);
+    font-family: Arial;
+}
+
+.wd-a-title-div {
+    position: relative;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.wd-b-author-name-div {
+    position: relative;
+    padding-left: 12px;
+    padding-top: 12px;
+    width: 506px;
+}
+
+.wd-a-title-div-handle {
+    padding-left: 16px;
+}
+
+.wd-a-title {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.wd-a-handle {
+    font-size: 13px;
+    color: lightgrey;
+}
+
+.wd-a-bottom-margin {
+    position: relative;
+    margin-top: 12px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-bottom-color: lightgrey;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+
+.wd-padding-12 {
+    padding-top: 12px;
+}
+
+.wd-f-padding-12 {
+    padding: 12px;
+    margin-top: -5px;
+}
+
+.wd-rounded-top-around {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.wd-b-author-name {
+    color: white;
+    font-size: 15px;
+}
+
+.wd-b-author-content {
+    margin-top: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.wd-b-author-handle {
+    color: darkgray;
+    font-size: 15px;
+}
+
+.wd-b-flex {
+    display: flex;
+}
+
+.wd-f-author-name {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wd-f-author-content {
+    margin-top: 0px;
+    color: lightgrey;
+    font-size: 15px;
+}
+
+.wd-e-border {
+    border: 1px solid lightgrey;
+}
+
+.wd-f-border {
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.wd-g-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wd-g-flex-auto-margin {
+    margin-right: auto;
+}
+
+.wd-g-anchor {
+    text-decoration: none;
+}
+
+.wd-g-symbol-text {
+    color: darkgray;
+    font-size: 12px;
+    padding-left: 12px;
+}
