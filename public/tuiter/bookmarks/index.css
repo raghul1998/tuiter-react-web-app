@@ -1,6 +1,8 @@
 body {
     background-color: black;
     border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
     font-family: Arial;
     margin-left: 16px;
 }
