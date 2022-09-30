@@ -2,6 +2,7 @@ body {
     background-color: black;
     border-color: rgb(47, 51, 54);
     margin-left: 16px;
+    font-family: Arial;
 }
 
 .wd-search-box-color {

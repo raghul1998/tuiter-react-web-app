@@ -2,6 +2,7 @@ body {
     background-color: black;
     border-color: rgb(47, 51, 54);
     font-family: Arial;
+    margin-left: 16px;
 }
 
 .wd-a-title-div {
@@ -68,6 +69,7 @@ body {
     margin-top: 5px;
     color: white;
     font-size: 15px;
+    padding-right: 16px;
 }
 
 .wd-b-author-handle {
@@ -89,6 +91,12 @@ body {
     margin-top: 0px;
     color: lightgrey;
     font-size: 15px;
+}
+
+@media (max-width: 650px) {
+    .hide-image {
+        display: none;
+    }
 }
 
 .wd-e-border {
