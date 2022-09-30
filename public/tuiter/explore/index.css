@@ -3,8 +3,8 @@ body {
     border-color: rgb(47, 51, 54);
     border-width: 1px;
     border-style: solid;
-    margin-left: 16px;
     font-family: Arial;
+    margin: 0px;
 }
 
 .wd-search-box-color {
