@@ -1,6 +1,8 @@
 body {
     background-color: black;
     border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
     margin-left: 16px;
     font-family: Arial;
 }
@@ -166,35 +168,3 @@ body {
     border-radius: 20px;
     padding-bottom: 8px;
 }
-
-/*
-[stylesheet-group="2.2"]{}
-.r-12vffkv>*{pointer-events:auto;}
-.r-12vffkv{pointer-events:none!important;}
-.r-14lw9ot{background-color:rgba(255,255,255,1.00);}
-.r-1p0dtai{bottom:0px;}
-.r-1d2f490{left:0px;}
-.r-1xcajam{position:fixed;}
-.r-zchlnj{right:0px;}
-.r-ipm5af{top:0px;}
-.r-kemksi{background-color:rgba(0,0,0,1.00);}
-.r-yyyyoo{fill:currentcolor;}
-.r-1xvli5t{height:1.25em;}
-.r-dnmrzs{max-width:100%;}
-.r-bnwqim{position:relative;}
-.r-1plcrui{vertical-align:text-bottom;}
-.r-lrvibr{-moz-user-select:none;-ms-user-select:none;-webkit-user-select:none;user-select:none;}
-.r-13gxpu9{color:rgba(29,161,242,1.00);}
-.r-wy61xf{height:72px;}
-.r-u8s1d{position:absolute;}
-.r-1blnp2b{width:72px;}
-.r-1ykxob0{top:60%;}
-.r-q4m81j{text-align:center;}
-.r-bcqeeo{min-width:0px;}
-.r-qvutc0{word-wrap:break-word;}
-.r-rjixqe{line-height:20px;}
-.r-1qd0xha{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
-.r-a023e6{font-size:15px;}
-.r-16dba41{font-weight:400;}
-.r-poiln3{font-family:inherit;}</style><body style="background-color: #000000;">
-*/
