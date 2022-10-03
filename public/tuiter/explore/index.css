@@ -1,3 +1,14 @@
+.wd-round-image {
+    border-radius: 50%;
+}
+
+.wd-b-column-flex {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+/*
 body {
     background-color: black;
     border-color: rgb(47, 51, 54);
@@ -168,3 +179,4 @@ body {
     border-radius: 20px;
     padding-bottom: 8px;
 }
+*/
