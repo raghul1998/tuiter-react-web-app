@@ -2,10 +2,19 @@
     border-radius: 50%;
 }
 
+.wd-round-image-2 {
+    border-radius: 10%;
+}
+
 .wd-b-column-flex {
     display: flex;
     position: relative;
     justify-content: space-between;
+}
+
+.wd-search-tuiter {
+    bottom: 7px;
+    left: 10px;
 }
 
 /*
