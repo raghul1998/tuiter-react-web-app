@@ -22,7 +22,7 @@
 
     <div class="row pt-1">
         <!-- Left Pane -->
-        <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2 bg-black">
+        <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2">
             <div class="list-group">
                 <li class="list-group-item bg-black wd-color-left-pane fa-lg">
                     <i class="fa-solid fa-t"></i>
@@ -68,21 +68,23 @@
                     <p class="d-none d-xl-inline"> &nbsp More </p>
                 </a>
                 <button class="btn btn-primary w-100 rounded-pill mt-3">
-                    Tweet
+                    <b class="button-text d-none d-sm-block">Tweet</b>
+                    <b class="button-text d-block d-sm-none">T</b>
                 </button>
             </div>
         </div>
 
         <!-- Middle Pane -->
-        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6">
-            <div class="d-block d-sm-none fa-2x">XS</div>
-            <div class="d-none d-sm-block d-md-none fa-2x">S</div>
-            <div class="d-none d-md-block d-lg-none fa-2x">M</div>
-            <div class="d-none d-lg-block d-xl-none fa-2x">L</div>
-            <div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>
-            <div class="d-none d-xxl-block fa-2x">XXL</div>
-            <div class="row">
-                <div class="col-11">
+        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6 border border-top-0
+                border-bottom-0 border-dark p-sm-0">
+<!--            <div class="d-block d-sm-none fa-2x">XS</div>-->
+<!--            <div class="d-none d-sm-block d-md-none fa-2x">S</div>-->
+<!--            <div class="d-none d-md-block d-lg-none fa-2x">M</div>-->
+<!--            <div class="d-none d-lg-block d-xl-none fa-2x">L</div>-->
+<!--            <div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>-->
+<!--            <div class="d-none d-xxl-block fa-2x">XXL</div>-->
+            <div class="row" style="margin-left: 5px">
+                <div class="col-10">
                     <div class="position-relative">
                         <input class="ps-5 form-control rounded-pill bg-dark border-0 text-white"
                                placeholder="Search Tuiter"/>
@@ -91,12 +93,12 @@
                         </span>
                     </div>
                 </div>
-                <div class="col-1">
-                    <i class="fa-solid fa-gear fa-lg pt-3" style="color: white"></i>
+                <div class="col-2">
+                    <i class="fa-solid fa-gear fa-lg pt-3 wd-gear"></i>
                 </div>
             </div>
 
-            <ul class="nav nav-tabs mt-1 mb-1 wd-flex-justify border-0">
+            <ul class="nav nav-tabs mt-1 mb-1 wd-flex-justify border-0 mt-2">
                 <li class="nav-item">
                     <a class="nav-link wd-color-grey wd-bold-text" href="for-you.html">For You</a>
                 </li>
@@ -116,10 +118,14 @@
                 </li>
             </ul>
 
-            <div class="position-relative">
+            <div class="position-relative border-top border-bottom border-dark">
                 <img src="../../../images/bts.jpg" width="100%"/>
+                <p class="position-absolute bottom-0 left-2 text-white"
+                   style="padding-left: 12px; margin-bottom:80px; font-weight: bold;
+                   font-size: 10px">
+                    Music . Last night
+                </p>
                 <h3 class="position-absolute bottom-0 left-2 text-white" style="padding-left: 10px">
-                    <p style="padding-top: 10px; font-weight: bold; font-size: 10px"> Music . Last night </p>
                     BTS and Coldplay release their new song, My Universe
                 </h3>
             </div>
@@ -180,6 +186,30 @@
                         <div class="col-2">
                             <img class="float-end rounded img-fluid"
                                  src="../../../images/stanley.jpg"/>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item bg-black">
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="wd-color-left-pane">
+                                <span class="fw-bolder"> JavaScript </span>
+                                <i class="fa-sharp fa-solid fa-circle-check"></i>
+                                <span class="text-secondary">
+                                    - 2h
+                                </span>
+                            </div>
+                            <div class="fw-bolder wd-color-left-pane">
+                                JavaScript is programming language that can run on browsers
+                                as well as desktops
+                            </div>
+                            <div class="text-secondary">
+                                123K Tweets
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <img class="float-end rounded img-fluid"
+                                 src="../../../images/javascript.png"/>
                         </div>
                     </div>
                 </li>

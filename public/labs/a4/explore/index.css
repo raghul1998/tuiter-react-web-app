@@ -47,6 +47,15 @@ body {
     font-weight: bold;
 }
 
+.wd-text-align-center {
+    text-align: center;
+}
+
+.wd-gear {
+    color: white;
+    float:right;
+    margin-right: 10px;
+}
 
 /*
 .wd-search-box-color {
