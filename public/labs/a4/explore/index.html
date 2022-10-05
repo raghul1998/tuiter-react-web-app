@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explore</title>
+    <!-- Bootstraps -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+          crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          rel="stylesheet"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- My Own CSS -->
+    <link href="index.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="row pt-1">
+        <!-- Left Pane -->
+        <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2 bg-black">
+            <div class="list-group">
+                <li class="list-group-item bg-black wd-color-left-pane fa-lg">
+                    <i class="fa-solid fa-t"></i>
+                </li>
+                <a href=""
+                   class="list-group-item list-group-item-action bg-black wd-color-left-pane mt-3 wd-font-left-pane">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <p class="d-none d-xl-inline"> &nbsp Home </p>
+                </a>
+                <a href=""
+                   class="list-group-item list-group-item-action bg-black wd-color-left-pane mt-3 wd-font-left-pane">
+                    <i class="fa-regular fa-hashtag wd-bold-text"></i>
+                    <p class="d-none d-xl-inline wd-bold-text"> &nbsp Explore </p>
+                </a>
+                <a href=""
+                   class="list-group-item list-group-item-action bg-black wd-color-left-pane mt-3 wd-font-left-pane">
+                    <i class="fa-regular fa-bell"></i>
+                    <p class="d-none d-xl-inline"> &nbsp Notifications </p>
+                </a>
+                <a href=""
+                   class="list-group-item list-group-item-action bg-black wd-color-left-pane mt-3 wd-font-left-pane">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p class="d-none d-xl-inline"> &nbsp Messages </p>
+                </a>
+                <a href=""
+                   class="list-group-item list-group-item-action bg-black wd-color-left-pane mt-3 wd-font-left-pane">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <p class="d-none d-xl-inline"> &nbsp Bookmarks </p>
+                </a>
+                <a href=""
+                   class="list-group-item list-group-item-action bg-black wd-color-left-pane mt-3 wd-font-left-pane">
+                    <i class="fa-solid fa-list"></i>
+                    <p class="d-none d-xl-inline"> &nbsp Lists </p>
+                </a>
+                <a href=""
+                   class="list-group-item list-group-item-action bg-black wd-color-left-pane mt-3 wd-font-left-pane">
+                    <i class="fa-regular fa-user"></i>
+                    <p class="d-none d-xl-inline"> &nbsp Profile </p>
+                </a>
+                <a href=""
+                   class="list-group-item list-group-item-action bg-black wd-color-left-pane mt-3 wd-font-left-pane">
+                    <i class="fa-regular fa-circle"></i>
+                    <p class="d-none d-xl-inline"> &nbsp More </p>
+                </a>
+                <button class="btn btn-primary w-100 rounded-pill mt-3">
+                    Tweet
+                </button>
+            </div>
+        </div>
+
+        <!-- Middle Pane -->
+        <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6">
+            <div class="d-block d-sm-none fa-2x">XS</div>
+            <div class="d-none d-sm-block d-md-none fa-2x">S</div>
+            <div class="d-none d-md-block d-lg-none fa-2x">M</div>
+            <div class="d-none d-lg-block d-xl-none fa-2x">L</div>
+            <div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>
+            <div class="d-none d-xxl-block fa-2x">XXL</div>
+            <div class="row">
+                <div class="col-11">
+                    <div class="position-relative">
+                        <input class="ps-5 form-control rounded-pill bg-dark border-0 text-white"
+                               placeholder="Search Tuiter"/>
+                        <span class="position-absolute wd-search-tuiter">
+                            <i class="fa-solid fa-magnifying-glass wd-color-grey"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <i class="fa-solid fa-gear fa-lg pt-3" style="color: white"></i>
+                </div>
+            </div>
+
+            <ul class="nav nav-tabs mt-1 mb-1 wd-flex-justify border-0">
+                <li class="nav-item">
+                    <a class="nav-link wd-color-grey wd-bold-text" href="for-you.html">For You</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link wd-color-grey wd-bold-text" href="trending.html">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link wd-color-grey wd-bold-text" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link wd-color-grey wd-bold-text" href="sports.html">Sports</a>
+                </li>
+                <li class="nav-item d-none d-md-block wd-nav-tab-highlight">
+                    <a class="nav-link text-white wd-bold-text" href="entertainment.html">
+                        Entertainment
+                    </a>
+                </li>
+            </ul>
+
+            <div class="position-relative">
+                <img src="../../../images/bts.jpg" width="100%"/>
+                <h3 class="position-absolute bottom-0 left-2 text-white" style="padding-left: 10px">
+                    <p style="padding-top: 10px; font-weight: bold; font-size: 10px"> Music . Last night </p>
+                    BTS and Coldplay release their new song, My Universe
+                </h3>
+            </div>
+
+            <ul class="list-group">
+                <li class="list-group-item bg-black">
+                    <div class="row">
+                        <div class="col-11">
+                            <div class="text-secondary">
+                                Trending in R&B soul
+                            </div>
+                            <div class="fw-bolder wd-bold-text wd-color-left-pane">
+                                R Kelly
+                            </div>
+                            <div class="text-secondary">
+                                18.2K Tweets
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <span class="wd-color-grey wd-bold-text">...</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item bg-black">
+                    <div class="row">
+                        <div class="col-11">
+                            <div class="text-secondary">
+                                Trending in R&B soul
+                            </div>
+                            <div class="fw-bolder wd-bold-text wd-color-left-pane">
+                                Chole
+                            </div>
+                            <div class="text-secondary">
+                                Trending with <span class="text-primary">Halle</span>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <span class="wd-color-grey wd-bold-text">...</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item bg-black">
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="wd-color-left-pane">
+                                <img class="wd-round-image"
+                                     src="../../../images/times.png" height="20px" width="20px"/>
+                                <span class="fw-bolder"> The Times </span>
+                                <i class="fa-sharp fa-solid fa-circle-check"></i>
+                                <span class="text-secondary">
+                                    . September 24, 2021
+                            </span>
+                            </div>
+                            <div class="fw-bolder wd-color-left-pane">
+                                Stanley Tucci: 'Food or sex? That's the cruelest question...'
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <img class="float-end rounded img-fluid"
+                                 src="../../../images/stanley.jpg"/>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+        <!-- Right Pane -->
+        <div class="col-0 col-sm-0 col-md-0 col-lg-4 col-xl-4 col-xxl-4 d-none d-lg-block mt-3">
+            <div class="list-group bg-black">
+                <li class="list-group-item bg-dark text-white border-0 rounded-top">
+                    <b> Who to follow </b>
+                </li>
+                <li class="list-group-item bg-dark text-white border-0">
+                    <div class="row">
+                        <div class="col-2">
+                            <img class="wd-round-image"
+                                 src="../../../images/baby.jpg" height="40px" width="40px"/>
+                        </div>
+                        <div class="col-lg-6 col-xl-6 col-xxl-7">
+                            <div class="row">
+                                <b>The Babylon Bee <i class="fa-sharp fa-solid fa-circle-check"></i>
+                                </b>
+                                <span class="text-secondary"> @TheBabylonBee </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-lg-4 col-xxl-3">
+                            <button class="btn btn-light w-100 rounded-pill">
+                                <b>Follow</b>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item bg-dark text-white border-0">
+                    <div class="row">
+                        <div class="col-2">
+                            <img class="wd-round-image"
+                                 src="../../../images/jack.jpg" height="40px"
+                                 width="40px"/>
+                        </div>
+                        <div class="col-lg-6 col-xl-6 col-xxl-7">
+                            <div class="row">
+                                <b>Jack Posobiec <i
+                                        class="fa-sharp fa-solid fa-circle-check"></i> </b>
+                                <span class="text-secondary"> @JackPosobiec </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-lg-4 col-xxl-3">
+                            <button class="btn btn-light w-100 rounded-pill">
+                                <b>Follow</b>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <a href="" class="list-group-item bg-dark text-primary rounded-bottom">
+                    Show more
+                    <br/>
+                </a>
+                <p class="text-secondary" style="padding-left: 10px; padding-top: 10px">
+                    Terms of Service &nbsp Privacy Policy &nbsp Cookie Policy <br/>
+                    Ads info &nbsp More &nbsp © 2022 Twitter, Inc.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
