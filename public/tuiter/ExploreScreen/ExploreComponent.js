@@ -2,7 +2,7 @@ import PostSummaryList from "../PostSummaryList/index.js";
 
 const ExploreComponent = () => {
     return (`
-    <div class="row">
+     <div class="row">
         <div class="col-11">
           <div class="position-relative">
             <input class="ps-5 form-control rounded-pill" placeholder="Search Tuiter"/>
@@ -35,7 +35,7 @@ const ExploreComponent = () => {
       </ul>
     
       <div class="position-relative">
-        <img src="../../images/starship.jpg" width="100%"/>
+        <img src="../images/starship.jpg" width="100%"/>
         <h3 class="position-absolute bottom-0 left-0 text-black wd-bold-text">SpaceX's Starship</h3>
       </div>
       

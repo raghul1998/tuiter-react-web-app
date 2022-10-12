@@ -10,7 +10,7 @@ const PostSummaryItem = (post) => {
         userNameAndTime = `<div class="fw-bolder">
                                 ${post.userName}
                                 <i class="fa-sharp fa-solid fa-circle-check"></i>
-                                <span class="wd-post-time-color"> - ${post.time} </span>
+                                <span class="text-secondary"> - ${post.time} </span>
                            </div>`
     }
 
