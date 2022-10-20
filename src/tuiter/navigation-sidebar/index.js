@@ -6,6 +6,7 @@ const NavigationSidebar = () => {
     const {pathname} = useLocation();
     const paths = pathname.split('/')
     const active = paths[2];
+    console.log(active)
 
     return (
         <div className="list-group">
@@ -13,7 +14,7 @@ const NavigationSidebar = () => {
                 <i className="fab fa-twitter fa-1x"></i>
             </li>
             <Link id="home-nav-bar" to="/tuiter/home"
-               className={`list-group-item list-group-item-action ${active === 'home'? 'active': ''}`}>
+               className={`list-group-item list-group-item-action ${active === 'home' || active === ''? 'active': ''}`}>
                 <i className="fa-solid fa-house-chimney"></i>
                 <span className="d-none d-xl-inline"> Home </span>
             </Link>
@@ -61,7 +62,7 @@ const NavigationSidebar = () => {
                 <span className="button-text d-none d-sm-block d-lg-none d-xl-block"
                       style={{marginLeft: "-3px"}}>Tweet</span>
                 <span className="button-text d-none d-lg-block d-xl-none"
-                      style={{marginLeft: "-10px"}}>Tweet</span>
+                      style={{marginLeft: "-6px"}}>Tweet</span>
                 <b className="button-text d-block d-sm-none">T</b>
             </button>
         </div>

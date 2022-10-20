@@ -24,39 +24,47 @@ const PostItem = ({posts}) => {
 
                 <div className="col-11">
 
-                    <div className="ml-1 ml-lg-3">
+                    <div className="ms-3 ms-lg-0">
                         <b>{posts.userName} <i
                             className="text-primary fa-sharp fa-solid fa-circle-check"></i>
                         </b>
                         <span className="text-secondary"> @{posts.handle} . {posts.time} </span>
                     </div>
 
-                    <div className="ml-3 ml-lg-1">
+                    <div className="ms-3 ms-lg-0">
                         {posts.title}
                     </div>
 
-                    <div className="ml-3 ml-lg-1 mt-2">
+                    <div className="ms-3 ms-lg-0 mt-2">
                         <img className="rounded border border-light wd-rounded-top-around img-fluid"
                              src={posts.image} width="100%"/>
                     </div>
 
                     {imageDescription}
 
-                    <div className="row ml-1 mt-3 text-secondary">
+                    <div className="row ms-1 mt-3 text-secondary">
                         <div className="col-3">
-                            <i className="fa-regular fa-comment"></i>
-                            <span className="pl-sm-2"> {posts.comments} </span>
+                            <a href="#" className="nav-link">
+                                <i className="fa-regular fa-comment"></i> &nbsp;
+                                <span className="pl-sm-2"> {posts.comments} </span>
+                            </a>
                         </div>
                         <div className="col-3">
-                            <i className="fa-solid fa-retweet"></i>
-                            <span className="pl-sm-2"> {posts.retuits} </span>
+                            <a href="#" className="nav-link">
+                                <i className="fa-solid fa-retweet"></i> &nbsp;
+                                <span className="pl-sm-2"> {posts.retuits} </span>
+                            </a>
                         </div>
                         <div className="col-3">
-                            <i className="fa-regular fa-heart"></i>
-                            <span className="pl-sm-2"> {posts.likes} </span>
+                            <a href="#" className="nav-link">
+                                <i className="fa-regular fa-heart"></i> &nbsp;
+                                <span className="pl-sm-2"> {posts.likes} </span>
+                            </a>
                         </div>
                         <div className="col-3">
-                            <i className="fa-solid fa-arrow-up-from-bracket"></i>
+                            <a href="#" className="nav-link">
+                                <i className="fa-solid fa-arrow-up-from-bracket"></i>
+                            </a>
                         </div>
                     </div>
 
