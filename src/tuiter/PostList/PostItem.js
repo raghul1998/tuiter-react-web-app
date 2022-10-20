@@ -19,7 +19,7 @@ const PostItem = ({posts}) => {
 
                 <div className="col-1">
                     <img className="wd-round-image"
-                         src={posts.avatar} height="40px" width="40px"/>
+                         src={posts.avatar} height="40px" width="40px" alt=""/>
                 </div>
 
                 <div className="col-11">
@@ -37,14 +37,14 @@ const PostItem = ({posts}) => {
 
                     <div className="ms-3 ms-lg-0 mt-2">
                         <img className="rounded border border-light wd-rounded-top-around img-fluid"
-                             src={posts.image} width="100%"/>
+                             src={posts.image} width="100%" alt=""/>
                     </div>
 
                     {imageDescription}
 
                     <div className="row ms-1 mt-3 text-secondary">
                         <div className="col-3">
-                            <a href="#" className="nav-link">
+                            <a href="like.html" className="nav-link">
                                 <i className="fa-regular fa-comment"></i> &nbsp;
                                 <span className="pl-sm-2"> {posts.comments} </span>
                             </a>

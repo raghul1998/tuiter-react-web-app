@@ -30,7 +30,7 @@ const PostSummaryItem = ({post}) => {
                     {tweet}
                 </div>
                 <div className="col-2">
-                    <img className="float-end rounded img-fluid" src={post.image} />
+                    <img className="float-end rounded img-fluid" src={post.image} alt="" />
                 </div>
             </div>
         </li>
