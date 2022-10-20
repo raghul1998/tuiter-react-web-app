@@ -44,25 +44,25 @@ const PostItem = ({posts}) => {
 
                     <div className="row ms-1 mt-3 text-secondary">
                         <div className="col-3">
-                            <a href="like.html" className="nav-link">
+                            <a href="dummy_comments.html" className="nav-link">
                                 <i className="fa-regular fa-comment"></i> &nbsp;
                                 <span className="pl-sm-2"> {posts.comments} </span>
                             </a>
                         </div>
                         <div className="col-3">
-                            <a href="#" className="nav-link">
+                            <a href="dummy_retuit.html" className="nav-link">
                                 <i className="fa-solid fa-retweet"></i> &nbsp;
                                 <span className="pl-sm-2"> {posts.retuits} </span>
                             </a>
                         </div>
                         <div className="col-3">
-                            <a href="#" className="nav-link">
+                            <a href="dummy_likes.html" className="nav-link">
                                 <i className="fa-regular fa-heart"></i> &nbsp;
                                 <span className="pl-sm-2"> {posts.likes} </span>
                             </a>
                         </div>
                         <div className="col-3">
-                            <a href="#" className="nav-link">
+                            <a href="dummpy_share.html" className="nav-link">
                                 <i className="fa-solid fa-arrow-up-from-bracket"></i>
                             </a>
                         </div>
