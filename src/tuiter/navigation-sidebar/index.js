@@ -1,55 +1,62 @@
 import React from "react";
+import {Link} from "react-router-dom";
+import {useLocation} from "react-router";
 
-const NavigationSidebar = (
-    {
-        active = 'explore'
-    }
-) => {
+const NavigationSidebar = () => {
+    const {pathname} = useLocation();
+    const paths = pathname.split('/')
+    const active = paths[2];
+
     return (
         <div className="list-group">
             <li className="list-group-item">
                 <i className="fab fa-twitter fa-1x"></i>
             </li>
-            <a id="home-nav-bar" href=""
+            <Link id="home-nav-bar" to="/tuiter/home"
                className={`list-group-item list-group-item-action ${active === 'home'? 'active': ''}`}>
                 <i className="fa-solid fa-house-chimney"></i>
                 <span className="d-none d-xl-inline"> Home </span>
-            </a>
-            <a id="explore-nav-bar" href=""
+            </Link>
+            <Link id="explore-nav-bar" to="/tuiter/explore"
                className={`list-group-item list-group-item-action ${active === 'explore'? 'active': ''}`}>
                 <i className="fa-regular fa-hashtag"></i>
                 <span className="d-none d-xl-inline"> Explore </span>
-            </a>
-            <a id="notifications-nav-bar" href=""
+            </Link>
+            <Link id="explore-nav-bar" to="/"
+                  className={`list-group-item list-group-item-action ${active === '/'? 'active': ''}`}>
+                <i className="fa-solid fa-flask"></i>
+                <span className="d-none d-xl-inline"> Labs </span>
+            </Link>
+            <Link id="notifications-nav-bar" to=""
                className={`list-group-item list-group-item-action ${active === 'notifications'? 'active': ''}`}>
                 <i className="fa-solid fa-bell"></i>
                 <span className="d-none d-xl-inline"> Notifications </span>
-            </a>
-            <a id="messages-nav-bar" href=""
+            </Link>
+            <Link id="messages-nav-bar" to=""
                className={`list-group-item list-group-item-action ${active === 'messages'? 'active': ''}`}>
                 <i className="fa-solid fa-envelope"></i>
                 <span className="d-none d-xl-inline"> Messages </span>
-            </a>
-            <a id="bookmarks-nav-bar" href=""
+            </Link>
+            <Link id="bookmarks-nav-bar" to=""
                className={`list-group-item list-group-item-action ${active === 'bookmarks'? 'active': ''}`}>
                 <i className="fa-solid fa-bookmark"></i>
                 <span className="d-none d-xl-inline"> Bookmarks </span>
-            </a>
-            <a id="lists-nav-bar" href=""
+            </Link>
+            <Link id="lists-nav-bar" to=""
                className={`list-group-item list-group-item-action ${active === 'lists'? 'active': ''}`}>
                 <i className="fa-solid fa-list"></i>
                 <span className="d-none d-xl-inline"> Lists </span>
-            </a>
-            <a id="profile-nav-bar" href=""
+            </Link>
+            <Link id="profile-nav-bar" to=""
                className={`list-group-item list-group-item-action ${active === 'profile'? 'active': ''}`}>
                 <i className="fa-solid fa-user"></i>
                 <span className="d-none d-xl-inline"> Profile </span>
-            </a>
-            <a id="more-nav-bar" href=""
+            </Link>
+            <Link id="more-nav-bar" to=""
                className={`list-group-item list-group-item-action ${active === 'more'? 'active': ''}`}>
                 <i className="fa-solid fa-circle"></i>
                 <span className="d-none d-xl-inline"> More </span>
-            </a>
+            </Link>
             <button className="btn btn-primary w-100 rounded-pill mt-1">
                 <span className="button-text d-none d-sm-block d-lg-none d-xl-block"
                       style={{marginLeft: "-3px"}}>Tweet</span>

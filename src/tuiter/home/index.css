@@ -1,0 +1,199 @@
+.wd-round-image {
+    border-radius: 50%;
+}
+
+.wd-round-image-2 {
+    border-radius: 10%;
+}
+
+.wd-b-column-flex {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.wd-search-tuiter {
+    bottom: 7px;
+    left: 10px;
+}
+
+.list-group-item {
+    color: white;
+}
+
+.wd-bold-text {
+    font-weight: bold;
+}
+
+/*
+body {
+    background-color: black;
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+    font-family: Arial;
+    margin: 0px;
+}
+
+.wd-search-box-color {
+    background-color: darkgray;
+    color: white;
+    border-color: darkgray;
+}
+
+.wd-search-box-color:focus {
+    background-color: darkgray;
+    color: white;
+    border-color: #66afe9;
+    outline: 0;
+}
+
+.wd-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-margin-search-bar {
+    margin-top: 10px;
+}
+
+.wd-margin-search-icon {
+    margin-top: 9px;
+    margin-right: 0px;
+    margin-left: 5px;
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+
+.wd-width-search-box {
+    width: 90%;
+    height: 49%;
+    padding: 5px;
+}
+
+.wd-rounded-right-corners {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.wd-rounded-left-corners {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.wd-width-search-box-div {
+    width: 100%;
+}
+
+.wd-gear {
+    padding-right: 12px;
+    padding-top: 15px;
+    width: 90px;
+    size: 100px;
+    float: right;
+    position:relative;
+}
+
+.wd-gear-stretch {
+    font-size: 25px;
+    position: relative;
+    bottom: 5px;
+}
+
+.wd-gear-anchor {
+    color: #66afe9;
+    text-decoration: none;
+}
+
+.wd-b-column-flex {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.wd-b-individual-item {
+    padding: 16px;
+    border-style: solid;
+    border-color: black;
+}
+
+.wd-b-individual-item:hover {
+    border-bottom-color: rgb(29,161,242);
+}
+
+.wd-b-individual-item-active {
+    border-bottom-color: rgb(29,161,242);
+}
+
+.wd-b-col-anchor {
+    color: rgb(110, 118, 125);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.wd-b-col-anchor:active {
+    color: rgb( 29,161,242);
+}
+
+.wd-b-col-anchor[tabindex]:focus {
+    color: rgb(29,161,242);
+}
+
+.wd-c-topic {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-c-topic-author {
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+}
+
+.wd-c-tweet {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-c-title {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.wd-c-content-div {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 100%;
+}
+
+.wd-c-content-div:hover {
+    border-color: black;
+    border-bottom-color: rgb(110, 118, 125);
+}
+
+.wd-c-post-anchor {
+    color: rgb(110, 118, 125);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.wd-c-post-image-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-c-post-image {
+    float: right;
+    position:relative;
+    height: 100px;
+    width: 100px;
+    margin-right: 16px;
+    border-radius: 20px;
+    padding-bottom: 8px;
+}
+*/
