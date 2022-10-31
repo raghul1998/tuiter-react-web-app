@@ -12,7 +12,8 @@
     "imageLink": "netflix.com",
     "comments": "4.2K",
     "retuits": "3.5K",
-    "likes": "35K"
+    "likes": "35K",
+    "liked": true
   },
   {
     "_id": 124,
@@ -27,6 +28,7 @@
     "imageLink": "",
     "comments": "965",
     "retuits": "2.4K",
-    "likes": "4K"
+    "likes": "4K",
+    "liked": false
   }
 ]
