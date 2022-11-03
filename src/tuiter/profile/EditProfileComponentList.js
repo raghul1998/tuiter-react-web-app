@@ -65,6 +65,7 @@ const EditProfileComponentList = () => {
             <div className="mt-1">
                 <ProfileBanner profile={profile}/>
             </div>
+            <br/>
             <div className="position-relative mt-4">
                 <span className="position-absolute ps-2 text-secondary" style={{fontSize: "13px"}}>
                     Name

@@ -26,7 +26,8 @@ const ProfileComponentList = () => {
 
             <ProfileBanner/>
 
-            <Link to={"/tuiter/edit-profile"} className="btn btn-light rounded-pill float-end mt-1">
+            <Link to={"/tuiter/edit-profile"} className="btn btn-light rounded-pill float-end fw-bold"
+                  style={{marginTop: "-15px"}}>
                 Edit Profile
             </Link>
 

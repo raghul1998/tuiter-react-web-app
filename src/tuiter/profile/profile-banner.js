@@ -7,11 +7,12 @@ const ProfileBanner = () => {
                 <img src="./images/bts.jpg" alt="" width={100} height={210}/>
             </div>
 
-            <div className="position-relative">
-                <img className="position-absolute bottom-0 left-0 rounded-circle"
+            <div className="">
+                <img className="position-absolute rounded-circle"
                      src="./images/nasa.jpg" alt=""
-                     style={{height: "auto", width: "150px"}}/>
+                     style={{height: "auto", width: "150px", marginLeft:"15px", marginTop: "-70px"}}/>
             </div>
+            <br/>
         </>
     )
 }
