@@ -10,11 +10,12 @@ const WhatsHappening = () => {
             title: whatsHappening
         }
         dispatch(createTuit(newTuit));
+        setWhatsHappening('')
     }
     return (
         <div className="row">
             <div className="col-auto">
-                <img src="./images/nasa.jpg" width={60}/>
+                <img src="./images/nasa.jpg" width={60} alt=""/>
             </div>
             <div className="col-10">
                <textarea value={whatsHappening} placeholder="What's happening?"

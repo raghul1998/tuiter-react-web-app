@@ -32,7 +32,6 @@ const tuitsSlice = createSlice({
                                            state.splice(index, 1);
                                        },
                                        createTuit(state, action) {
-                                           console.log(action.payload)
                                            state.unshift({
                                                              ...action.payload,
                                                              ...templateTuit,
