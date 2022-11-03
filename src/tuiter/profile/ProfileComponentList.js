@@ -5,11 +5,7 @@ import {Link} from "react-router-dom";
 
 const ProfileComponentList = () => {
     let profileInfo = useSelector(state => state.profile)
-    let [profile, setprofile] = useState(profileInfo);
-    const editProfile = ({profile}) => {
-        setprofile({profile})
-    }
-
+    let [profile] = useState(profileInfo);
     return (
         <div>
             <div className="row">
