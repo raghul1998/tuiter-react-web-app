@@ -30,25 +30,25 @@ const NavigationSidebar = () => {
                 <i className="fa-solid fa-flask"></i>
                 <span className="d-none d-xl-inline"> Labs </span>
             </Link>
-            <Link id="notifications-nav-bar" to=""
+            <Link id="notifications-nav-bar" to="/tuiter/"
                   className={`list-group-item list-group-item-action ${active === 'notifications'
                                                                        ? 'active' : ''}`}>
                 <i className="fa-solid fa-bell"></i>
                 <span className="d-none d-xl-inline"> Notifications </span>
             </Link>
-            <Link id="messages-nav-bar" to=""
+            <Link id="messages-nav-bar" to="/tuiter/"
                   className={`list-group-item list-group-item-action ${active === 'messages'
                                                                        ? 'active' : ''}`}>
                 <i className="fa-solid fa-envelope"></i>
                 <span className="d-none d-xl-inline"> Messages </span>
             </Link>
-            <Link id="bookmarks-nav-bar" to=""
+            <Link id="bookmarks-nav-bar" to="/tuiter/"
                   className={`list-group-item list-group-item-action ${active === 'bookmarks'
                                                                        ? 'active' : ''}`}>
                 <i className="fa-solid fa-bookmark"></i>
                 <span className="d-none d-xl-inline"> Bookmarks </span>
             </Link>
-            <Link id="lists-nav-bar" to=""
+            <Link id="lists-nav-bar" to="/tuiter/"
                   className={`list-group-item list-group-item-action ${active === 'lists' ? 'active'
                                                                                           : ''}`}>
                 <i className="fa-solid fa-list"></i>
@@ -60,7 +60,7 @@ const NavigationSidebar = () => {
                 <i className="fa-solid fa-user"></i>
                 <span className="d-none d-xl-inline"> Profile </span>
             </Link>
-            <Link id="more-nav-bar" to=""
+            <Link id="more-nav-bar" to="/tuiter/"
                   className={`list-group-item list-group-item-action ${active === 'more' ? 'active'
                                                                                          : ''}`}>
                 <i className="fa-solid fa-circle"></i>
