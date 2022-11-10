@@ -1,12 +1,15 @@
 import React from "react";
 import TuitStats from "./tuit-stats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer";
+/*import {deleteTuit} from "./tuits-reducer";*/
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = ({tuits}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        /*dispatch(deleteTuit(id));*/
+        console.log(id);
+        dispatch(deleteTuitThunk(id));
     }
 
     let imageDescription = '';
@@ -22,7 +25,7 @@ const TuitItem = ({tuits}) => {
     }
 
     return (
-        <li className="list-group-item border">
+        <li key={tuits._id} className="list-group-item border">
             <div className="row">
 
                 <div className="col-1">
